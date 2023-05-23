@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp);
+    height: 100vh;
+    .container1{
+        width: 80%;
+        margin: 0 10%;
+        padding-top: 10px;
+        
+    }
+    .row1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            .red{
+                color: rgb(216,61,77);
+            }
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    margin: 0 10px;
+                    &:hover{
+                        color: rgb(216,61,77) ;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+    .text{
+     text-align: center;
+ margin: 20%;
+
+ color: white;
+ h1{
+    font-size: 50px;
+    margin: 10px 0;
+ }
+ h6{
+    font-size: 25px;
+    margin: 20px 0 30px 0;
+ }
+//  a{
+//     text-decoration: none;
+//     color: white;
+//     border: 1px solid  rgb(216,61,77);
+//     padding: 15px 25px;
+   
+
+ }
+}
+
+.outer {
+   display: flex;
+   justify-content: center;
+    .button {
+        border: 1px solid black;
+        border-radius: 3px;
+        width: 200px;
+        height: 60px;
+        display: block;
+     
+        background: linear-gradient(to right, red 50%, white 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+        &:hover{
+            background-position: left bottom;
+           
+        }
+      }
+      .texts {
+        text-align: center;
+        font-size: 16px;
+        line-height: 60px; 
+        color: black;
+        transition: all .6s ease-out;
+        display: block;
+        &:hover{
+            color: white;
+        }
+      }
+      
+  }
+  .bizpro{
+    .las{
+     font-size: 60px;
+     width: 100px;
+     height: 100px;
+     border: 1px solid rgb(216,61,77) ;
+     display: flex;
+     justify-content: center;
+     border-radius: 50%;
+     line-height: 100px;
+     background: linear-gradient(to right, red 50%, white 50%);
+     background-size: 200% 100%;
+     background-position: right bottom;
+     transition: all .5s ease-out;
+     &:hover{
+      
+        background-position: left bottom;
+        color: white;
+     }
+
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border: none;
+        
+    }
+    .icn{
+        display: flex;
+        justify-content: center;
+       
+
+    }
+    .card-title{
+        text-align: center;
+
+    }
+   
+
+  }
+  .our-pro{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .lorem{
+  width: 60%;
+  margin: 20px 20%;
+    
+  }
+  .container{
+    padding-top: 100px;
+    .btn{
+        background: linear-gradient(to right, red 50%, white 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+        color: black;
+        border: 1px solid red;
+        &:hover{
+            background-position: left bottom;
+        }
+    }
+  }
+  .meet{
+    h1{
+        text-align: center;
+        padding: 50px 0 20px 0;
+    }
+    p{
+        width: 60%;
+        margin: 10px 20%;
+    }
+    .card-body{
+      background-color: gray;
+      
+    }
+    .card-text{
+        text-align: center;
+        color: white;
+    }
+  }
+  .blog{
+    .card{
+        border: none;
+        .card-text{
+            
+            a{
+                text-decoration: none;
+                color: black;
+             
+                &:hover{
+                    color: red;
+                    transition: 0.7s;
+                }
+            }
+        }
+    }
+    .admin{
+        color: red;
+        text-decoration: none;
+      
+    }
+    .read{
+      text-decoration: none;
+      color: black;
+       &:hover{
+        color: red;
+        transition: 0.7s;
+
+       }
+    }
+    .card-word{
+        margin: 50px 0;
+    }
+  }
+  .blog{
+    margin: 80px 0 0 0;
+    .blog-text{
+        text-align: center;
+    }
+    .blog-lorem{
+        width: 60%;
+        margin: 0 20%;
+    }
+    .hover{
+        position: relative;
+        width: 100%;
+        &:hover .overlay{
+              transform: scale(1);
+        }
+      }
+      .imgs{
+     max-width: 100%;
+        height: auto;
+      }
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.5);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transform: scale(0);
+        transition: .7s ease;
+        .las{
+            color: red;
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        
+        }
+      }
+  }
+  .meet{
+    .card{
+        position: relative;
+        width: 100%;
+        &:hover{
+            .overlay {
+                bottom: 0;
+                height: 100%;
+              }
+        }
+      }
+      .imgs {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+opacity: 0.7 ;
+background-color: white;
+
+
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+      }
+      .text {
+        color: black;
+        width: 80%;
+       
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .text-width{
+    
+     font-size: 10px;
+      }
+    }
+  
+  
+ 
+  
+ 
+  
+ 
+  
